@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="299dp"
+        android:layout_height="65dp"
+        android:layout_margin="50dp"
+        android:inputType="number"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter number1" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="299dp"
+        android:layout_height="65dp"
+        android:inputType="number"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter number2" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="180dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#fff7"
+        android:hint="Result"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="399dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="50dp"
+        android:background="#fff7"
+        android:text="+"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="399dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="50dp"
+        android:background="#fff7"
+        android:text="-"
+        android:textSize="30dp"
+         />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="50dp"
+        android:background="#fff7"
+        android:text="*"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="50dp"
+        android:background="#fff7"
+        android:text="/"
+         />
+
+</RelativeLayout>
